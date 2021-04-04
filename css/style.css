@@ -129,8 +129,8 @@ table {
 }
 
 body {
-    background-color: #fff;
-    color: #666;
+    background-color: rgb(237 249 254);
+    color: rgb(0, 28, 85);
     font-family: sans-serif;
     font-size: 15px;
     line-height: 24px
@@ -192,7 +192,8 @@ a:focus {
     display: inline-block;
     width: 24px;
     height: 24px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
+    ;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px
@@ -203,7 +204,7 @@ a:focus {
     width: 20px;
     height: 20px;
     background-color: #01994d;
-    border: 2px solid #fff;
+    border: 2px solid rgb(237 249 254);
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px
@@ -213,7 +214,7 @@ a:focus {
     width: 22px;
     height: 22px;
     background-color: red;
-    border: 8px solid #FFF;
+    border: 8px solid rgb(237 249 254);
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px
@@ -221,7 +222,8 @@ a:focus {
 
 .separator_wrapper::after,
 .separator_wrapper::before {
-    background-color: #ccc;
+    background-color: rgb(0, 0, 0);
+    ;
     display: inline-block;
     vertical-align: middle;
     content: "";
@@ -310,10 +312,10 @@ a:focus {
 }
 
 .circle-1 {
-    width: 320px;
-    height: 320px;
+    width: 420px;
+    height: 420px;
     display: block;
-    border: 1px solid #fff;
+    border: 1px solid rgb(237 249 254);
     border-radius: 50%;
     margin: 0 auto;
     margin-top: 10%;
@@ -321,9 +323,9 @@ a:focus {
 }
 
 .circle-2 {
-    width: 300px;
-    height: 300px;
-    background: #fff;
+    width: 400px;
+    height: 400px;
+    background: rgb(237 249 254);
     border-radius: 50%;
     margin: 0 auto
 }
@@ -335,16 +337,17 @@ a:focus {
 }
 
 .logo h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
-    margin-top: 0;
+    margin-top: 20%;
     margin-bottom: 0;
     font-family: sans-serif
 }
 
 .logo h2 span {
     color: red;
-    font-weight: 700
+    font-weight: 700;
+    margin-top: 10px;
 }
 
 .logo h3 {
@@ -380,8 +383,8 @@ a:focus {
     position: relative;
     width: 100%;
     height: 100%;
-    color: #FFF;
-    background: #fff url(../images/slide-1.jpg) center center no-repeat;
+    color: rgb(237 249 254);
+    background: rgb(237 249 254) url(../images/slide-1.jpg) center center no-repeat;
     background-attachment: fixed;
     background-size: auto 100%;
     position: relative;
@@ -395,8 +398,9 @@ a:focus {
 }
 
 .navbar-default {
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
+    background-color: rgb(237 249 254);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    ;
     border-radius: 0
 }
 
@@ -468,14 +472,16 @@ a:focus {
 
 .box-resume {
     position: relative;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
+    ;
     padding: 30px;
     margin-top: 45%
 }
 
 .box-resume.info {
     position: relative;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
+    ;
     padding: 10px;
     margin-top: 0;
     margin-bottom: 50px
@@ -504,7 +510,7 @@ a:focus {
 
 .download-resume {
     padding: 10px 15px;
-    background: #fff;
+    background: rgb(237 249 254);
     border: 1px solid red;
     color: red;
     text-align: center
@@ -574,7 +580,8 @@ a:focus {
 }
 
 .we-do .desc {
-    border-left: 1px solid #ccc;
+    border-left: 1px solid rgb(0, 0, 0);
+    ;
     padding: 5px 0 10px 40px;
     position: relative
 }
@@ -594,7 +601,7 @@ a:focus {
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
-    background: #ccc
+    background: rgb(0, 0, 0);
 }
 
 .skill-title {
@@ -610,11 +617,11 @@ a:focus {
     height: 8px;
     margin-bottom: 20px;
     overflow: hidden;
-    background-color: #FFF;
+    background-color: rgb(237 249 254);
     border-radius: 1px;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-bottom: 1px solid #ccc
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .progress-bar {
@@ -623,9 +630,10 @@ a:focus {
     height: 100%;
     font-size: 12px;
     line-height: 20px;
-    color: #fff;
+    color: rgb(237 249 254);
     text-align: center;
-    background-color: #ccc;
+    background-color: rgb(0, 0, 0);
+    ;
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: width .6s ease;
@@ -645,7 +653,8 @@ a:focus {
     display: block;
     padding: 10px;
     margin-top: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
+    ;
     font-size: 14px
 }
 
@@ -654,7 +663,8 @@ a:focus {
 }
 
 .stat-item:hover h4 {
-    background: #ccc;
+    background: rgb(0, 0, 0);
+    ;
     color: #000
 }
 
@@ -692,7 +702,7 @@ a:focus {
 
 .testimony {
     background: #666;
-    color: #fff
+    color: rgb(237 249 254)
 }
 
 .testimony .title {
@@ -701,7 +711,7 @@ a:focus {
 }
 
 .testimony .title-section {
-    color: #fff
+    color: rgb(237 249 254)
 }
 
 .testimony .item {
@@ -736,7 +746,8 @@ a:focus {
 }
 
 .years .year {
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
+    ;
     text-align: center;
     font-weight: 700;
     font-size: 16px;
@@ -747,7 +758,7 @@ a:focus {
     margin-top: 4px;
     margin-bottom: 4px;
     border: 0;
-    border-top: 1px solid #ccc
+    border-top: 1px solid rgb(0, 0, 0);
 }
 
 .years .desc h4 {
@@ -764,7 +775,8 @@ a:focus {
 }
 
 .years .desc {
-    border-left: 1px solid #ccc;
+    border-left: 1px solid rgb(0, 0, 0);
+    ;
     padding: 0 0 10px 40px;
     position: relative
 }
@@ -784,7 +796,7 @@ a:focus {
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
-    background: #ccc
+    background: rgb(0, 0, 0);
 }
 
 .years2 {
@@ -796,7 +808,8 @@ a:focus {
 }
 
 .years2 .year {
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
+    ;
     text-align: center;
     font-weight: 700;
     font-size: 16px;
@@ -807,7 +820,7 @@ a:focus {
     margin-top: 4px;
     margin-bottom: 4px;
     border: 0;
-    border-top: 1px solid #ccc
+    border-top: 1px solid rgb(0, 0, 0);
 }
 
 .years2 .desc h4 {
@@ -825,7 +838,8 @@ a:focus {
 }
 
 .years2 .desc {
-    border-left: 1px solid #ccc;
+    border-left: 1px solid rgb(0, 0, 0);
+    ;
     padding: 0 0 10px 40px;
     position: relative
 }
@@ -907,7 +921,7 @@ a:focus {
     -webkit-transition: all ease .25s;
     transition: all ease .25s;
     width: 100%;
-    color: #fff
+    color: rgb(237 249 254)
 }
 
 .r-item a .project-info .project-icon {
@@ -918,7 +932,7 @@ a:focus {
     -webkit-transition: all ease .25s;
     transition: all ease .25s;
     width: 100%;
-    color: #fff
+    color: rgb(237 249 254)
 }
 
 .r-item a .project-info .project-icon .fa {
@@ -933,7 +947,7 @@ a:focus {
     -webkit-transition: all ease .25s;
     transition: all ease .25s;
     width: 100%;
-    color: #fff
+    color: rgb(237 249 254)
 }
 
 .r-item a .project-info h5 {
@@ -975,7 +989,8 @@ a:focus {
 
 .r-item .separator_wrapper::after,
 .r-item .separator_wrapper::before {
-    background-color: #ccc;
+    background-color: rgb(0, 0, 0);
+    ;
     display: inline-block;
     vertical-align: middle;
     content: "";
@@ -1105,11 +1120,11 @@ a:focus {
 
 .panel-pricing.highlight {
     background-color: #333;
-    color: #fff
+    color: rgb(237 249 254)
 }
 
 .panel-pricing .price {
-    color: #fff;
+    color: rgb(237 249 254);
     padding: 18px 0 10px 0;
     font-size: 50px;
     background: #666;
@@ -1124,12 +1139,12 @@ a:focus {
 
 .panel-pricing>.panel-heading {
     color: #333;
-    background-color: #fff;
+    background-color: rgb(237 249 254);
     border-color: #ddd
 }
 
 .panel-pricing.highlight>.panel-heading {
-    color: #fff;
+    color: rgb(237 249 254);
     background-color: #333;
     border-color: #333
 }
@@ -1138,7 +1153,7 @@ a:focus {
     font-size: 14px;
     margin-top: 10px;
     display: block;
-    color: #ccc
+    color: rgb(0, 0, 0);
 }
 
 .panel-pricing .panel-body {
@@ -1155,7 +1170,7 @@ a:focus {
 
 .panel-pricing .panel-footer {
     padding: 10px 15px 30px 15px;
-    background-color: #fff;
+    background-color: rgb(237 249 254);
     border-top: 0
 }
 
@@ -1167,19 +1182,19 @@ a:focus {
 
 .panel-pricing .btn-primary {
     color: #666;
-    background-color: #fff;
+    background-color: rgb(237 249 254);
     border-color: #ddd;
     border-radius: 0
 }
 
 .panel-pricing .btn-primary:hover {
-    color: #fff;
+    color: rgb(237 249 254);
     background-color: red;
     border-color: red
 }
 
 .blog {
-    background-color: #fff
+    background-color: rgb(237 249 254)
 }
 
 .blog-item {
@@ -1202,7 +1217,7 @@ a:focus {
     background: #666;
     padding: 10px;
     font-size: 40px;
-    color: #fff;
+    color: rgb(237 249 254);
     text-align: center
 }
 
@@ -1212,13 +1227,13 @@ a:focus {
 }
 
 .blog-item .item-body {
-    background: #fff;
+    background: rgb(237 249 254);
     padding: 0 0 60px 0;
     position: relative
 }
 
 .blog-item.detail .item-body {
-    background: #fff;
+    background: rgb(237 249 254);
     border: none;
     padding: 20px 0 60px 0;
     position: relative
@@ -1226,7 +1241,7 @@ a:focus {
 
 .blog-item .item-body .meta {
     font-size: 12px;
-    color: #ccc
+    color: rgb(0, 0, 0);
 }
 
 .blog-item .item-body .meta a {
@@ -1289,7 +1304,7 @@ a:focus {
 .pagination>.active>a:focus,
 .pagination>.active>span:focus {
     z-index: 2;
-    color: #fff;
+    color: rgb(237 249 254);
     cursor: default;
     background-color: red;
     border-color: red
@@ -1332,7 +1347,8 @@ blockquote {
 
 .p-author {
     padding: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
+    ;
     max-height: 100px
 }
 
@@ -1366,7 +1382,8 @@ textarea {
     color: #555;
     background-color: transparent;
     background-image: none;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
+    ;
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -1399,11 +1416,12 @@ textarea {
     width: 100%;
     height: 350px;
     display: block;
-    background: #ccc
+    background: rgb(0, 0, 0);
 }
 
 .maps-address {
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
+    ;
     padding: 20px 0;
     display: block;
     text-align: center;
@@ -1436,7 +1454,7 @@ textarea {
 .info-thumb .bg-overlay {
     position: absolute;
     width: 100%;
-    color: #fff;
+    color: rgb(237 249 254);
     bottom: 0;
     background-color: #000;
     background-color: rgba(0, 0, 0, .5);
@@ -1449,12 +1467,12 @@ textarea {
 
 .footer-2 {
     padding: 10px 0;
-    color: #fff;
+    color: rgb(237 249 254);
     background-color: #3d454c
 }
 
 .footer-2 a {
-    color: #fff
+    color: rgb(237 249 254)
 }
 
 .footer-2 a:hover {
@@ -1468,7 +1486,7 @@ textarea {
 }
 
 .sosmed-footer li a {
-    color: #fff;
+    color: rgb(237 249 254);
     text-decoration: none
 }
 
@@ -1493,7 +1511,8 @@ textarea {
 }
 
 .timeline .year {
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
+    ;
     text-align: center;
     font-weight: 700;
     font-size: 16px;
@@ -1506,7 +1525,7 @@ textarea {
     margin-top: 4px;
     margin-bottom: 4px;
     border: 0;
-    border-top: 1px solid #ccc
+    border-top: 1px solid rgb(0, 0, 0);
 }
 
 .timeline .desc h4 {
@@ -1525,14 +1544,16 @@ textarea {
 }
 
 .timeline .desc {
-    border-left: 1px solid #ccc;
+    border-left: 1px solid rgb(0, 0, 0);
+    ;
     padding: 0 0 10px 40px;
     position: relative
 }
 
 .timeline .desc-box {
     padding: 20px 20px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
+    ;
     -webkit-box-shadow: 0 2px 6px -3px rgba(68, 68, 68, .5);
     box-shadow: 0 2px 6px -3px rgba(68, 68, 68, .5)
 }
@@ -1596,7 +1617,7 @@ textarea {
 .p-filter button {
     display: inline-block;
     padding: .4em .8em;
-    background: #fff;
+    background: rgb(237 249 254);
     border: 0;
     color: #666;
     font-size: 15px;
@@ -1653,7 +1674,8 @@ textarea {
     margin-top: 20px;
     position: relative;
     padding: 40px 20px 40px 20px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
+    ;
     -webkit-box-shadow: 0 2px 6px -3px rgba(68, 68, 68, .5);
     box-shadow: 0 2px 6px -3px rgba(68, 68, 68, .5)
 }
@@ -1669,7 +1691,8 @@ textarea {
 .publications .text-detail {
     padding-top: 40px;
     margin-top: 20px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid rgb(0, 0, 0);
+    ;
     display: none
 }
 
@@ -1697,12 +1720,12 @@ textarea {
 
 .publications .p-tombol a:hover {
     background-color: red;
-    color: #fff
+    color: rgb(237 249 254)
 }
 
 .timeline-2 .item {
     margin-top: 20px;
-    border-bottom: 1px solid #ccc
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .timeline-2 .item .description-name {
@@ -1711,7 +1734,8 @@ textarea {
 
 .timeline-2 .date {
     margin-top: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
+    ;
     -webkit-box-shadow: 0 2px 6px -3px rgba(68, 68, 68, .5);
     box-shadow: 0 2px 6px -3px rgba(68, 68, 68, .5);
     display: inline-table;
@@ -1729,7 +1753,7 @@ textarea {
     float: left;
     padding: 7px 15px;
     background: #efefef;
-    border-right: 1px solid #ccc
+    border-right: 1px solid rgb(0, 0, 0);
 }
 
 .timeline-2 .date .col2 {
@@ -1755,7 +1779,8 @@ textarea {
 .r-interests .item {
     margin-top: 10px;
     padding: 10px 15px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
+    ;
     border-left: 8px solid red;
     -webkit-box-shadow: 0 2px 6px -3px rgba(68, 68, 68, .5);
     box-shadow: 0 2px 6px -3px rgba(68, 68, 68, .5)
@@ -1765,7 +1790,7 @@ textarea {
     position: relative;
     width: 100%;
     height: 500px;
-    background-color: #fff
+    background-color: rgb(237 249 254)
 }
 
 #cd-google-map {
@@ -1831,8 +1856,8 @@ textarea {
 }
 
 .connect {
-    background: #fff url(../images/bg-connect.jpg) 0% 0% fixed repeat;
-    color: #fff;
+    background: rgb(237 249 254) url(../images/bg-connect.jpg) 0% 0% fixed repeat;
+    color: rgb(237 249 254);
     margin-top: 0;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -1849,15 +1874,16 @@ textarea {
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    background: #fff;
-    color: #ccc;
+    background: rgb(237 249 254);
+    color: rgb(0, 0, 0);
+    ;
     display: inline-table;
     margin: 10px 10px
 }
 
 .connect .item:hover {
     background: red;
-    color: #fff
+    color: rgb(237 249 254)
 }
 
 .connect .item .fa {
@@ -1867,7 +1893,7 @@ textarea {
 
 .btn-primary {
     color: red;
-    background-color: #fff;
+    background-color: rgb(237 249 254);
     border-color: red;
     border-radius: 0
 }
@@ -1878,7 +1904,7 @@ textarea {
 .btn-primary:active,
 .btn-primary.active,
 .open>.dropdown-toggle.btn-primary {
-    color: #fff;
+    color: rgb(237 249 254);
     background-color: red;
     border-color: red
 }
