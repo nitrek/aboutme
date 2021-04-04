@@ -481,6 +481,18 @@ blockquote {
     font-weight: 900;
 }
 
+.logo h4 {
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo h4 span {
+    color: #f00;
+    font-weight: 900;
+}
+
 .logo h3 {
     font-size: 18px;
     margin-top: 0;
