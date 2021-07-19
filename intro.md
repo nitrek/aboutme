@@ -1,0 +1,7 @@
+I am computer science graduate from Thapar University, passed out in 2016 post which I joined Prop tiger(Parent of housing and makaan) were I worked as technology intern for backend team.
+After that I joined HSBC as a graduate hire and am currently working as Tech Lead for DLT and Innovation Center of Excellence for Markets & Security Services @ HSBC.
+MY responsibilities including understating the requirements, designing and architecting the solution and then working on developing the development of the code.
+I have worked in multiple different projects in my experience of last 5 years and have experience on working with Api , backend , cloud and some frontend experience. Due to working on multiple different projects I got a good exposure of working on many different technologies, tools.
+My work over the years and also good preconisation both with the organisation and outside , that has helped us Win many Awards internally and Industry wide both for the project and me personally.
+In my current role i primarily on DLT and Blockchain using Corda which a private blockchain coded in Java and Kotlin. Also as part of the innovation team I work on multiple side projects involving automation , or duing quick POCs
+I am Technologist at heart and always curious to learn new things , I have done multiple certifications including Certified Cloud Architect , Certified Data Science Professional .I participate in many hackathons and also a active contributor the internal open source community.
